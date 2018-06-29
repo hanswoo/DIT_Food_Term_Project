@@ -83,7 +83,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="fHx-4e-WvK">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="0" id="Mtr-Hu-CXl">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="Map" id="Mtr-Hu-CXl">
                             <connections>
                                 <segue destination="Csi-ge-ztc" kind="show" id="vKy-A7-Y8c"/>
                             </connections>
@@ -292,7 +292,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0" width="16" height="16"/>
         <image name="Map" width="25" height="25"/>
     </resources>
 </document>
