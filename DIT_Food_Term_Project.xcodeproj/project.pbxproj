@@ -29,7 +29,7 @@
 		058F274920BEE70300271381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		641A0F0420BBDA36004ECC5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
-		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UiTableViewController Test 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "UiTableViewController Test 02.app"; path = "/Users/d7703_19/Documents/DIT_Food_Term_Project/build/Debug-iphoneos/UiTableViewController Test 02.app"; sourceTree = "<absolute>"; };
 		741C17E420AC061400FE6E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741C17E920AC061400FE6E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		741C17EB20AC061400FE6E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,17 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				741C17E320AC061400FE6E1E /* DIT_Food_Term_Project */,
-				741C17E220AC061400FE6E1E /* Products */,
 				058F274820BEE70300271381 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		741C17E220AC061400FE6E1E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		741C17E320AC061400FE6E1E /* DIT_Food_Term_Project */ = {
@@ -171,7 +162,7 @@
 				Base,
 			);
 			mainGroup = 741C17D820AC061400FE6E1E;
-			productRefGroup = 741C17E220AC061400FE6E1E /* Products */;
+			productRefGroup = 741C17D820AC061400FE6E1E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

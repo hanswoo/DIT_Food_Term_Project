@@ -1,10 +1,4 @@
-//
-//  TotalMapViewController.swift
-//  UiTableViewController Test 02
-//
-//  Created by amadeus on 2018. 6. 2..
-//  Copyright © 2018년 lse. All rights reserved.
-//
+
 
 import UIKit
 import MapKit
@@ -33,21 +27,14 @@ class TotalMapViewController: UIViewController {
                 if placemarks != nil {
                     let placemark = placemarks![0]
                     print(placemarks![0])
-                    
-                    // pin point 을 저장
                     let annotation = MKPointAnnotation()
 
                     if let location = placemark.location {
-                        // Add annotation
                         annotation.title = item.name
                         annotation.subtitle = item.type
                         annotation.coordinate = location.coordinate
                         self.annotations.append(annotation)
                         self.totalMapView.addAnnotations(self.annotations)
-        
-                        // Set zoom level
-//                              let region = MKCoordinateRegionMakeWithDistance(annotation.coordinate, 800, 800)
-//                              self.totalMapView.setRegion(region, animated: true)
                     }
                 }
                 self.totalMapView.showAnnotations(self.annotations, animated: true)
