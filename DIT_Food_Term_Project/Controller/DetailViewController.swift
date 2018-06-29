@@ -1,10 +1,4 @@
-//
-//  DetailViewController.swift
-//  UiTableViewController Test 02
-//
-//  Created by D7703_04 on 2018. 5. 28..
-//  Copyright © 2018년 lse. All rights reserved.
-//
+
 
 import UIKit
 import MapKit
@@ -23,7 +17,6 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // delegate connection
         detailTableView.delegate = self
         detailTableView.dataSource = self
         
